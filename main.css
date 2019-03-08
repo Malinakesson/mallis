@@ -4,7 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 150px;
-  background-image: linear-gradient(orange, yellow);
+  background: blue;
 }
 
 h1{
@@ -12,6 +12,10 @@ h1{
   font-size: 40px;
   letter-spacing: 2px;
   margin-bottom: 0px;
+}
+
+.dog {
+  margin-top: 10px;
 }
 
 .inputSection{
@@ -32,4 +36,12 @@ input{
 .addOption{
   margin-top: 10px;
   background-color: red
+}
+
+.resultSection{
+  height: 300px
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
 }
